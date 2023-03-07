@@ -13,7 +13,7 @@ const persona={
 // console.log({persona})
 // console.table(persona)
 
-const persona2 = {... persona};
+const persona2 = {...persona};
 persona2.nombre = 'Peter';
 
 console.log(persona)

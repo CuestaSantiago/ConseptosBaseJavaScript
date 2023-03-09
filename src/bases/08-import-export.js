@@ -14,3 +14,8 @@ const getHeroeByOwner = (owner) => heroes.filter((hero) => hero.owner.toLowerCas
 
 const [DC, Marvel] = owners;
 // console.log(getHeroeByOwner(Marvel))
+
+export {
+    getHeroeById,
+    getHeroeByOwner
+}

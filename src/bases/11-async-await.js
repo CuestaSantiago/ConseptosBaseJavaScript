@@ -21,4 +21,6 @@ const getImagen = async () => {
  
 };
 
-getImagen()
+export{
+    getImagen
+}
